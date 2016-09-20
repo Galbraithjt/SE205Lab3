@@ -1,0 +1,21 @@
+Lab 3 pg. 108
+
+1) EMPLOYEE has Primary Key EMP_CODE and Foreign Key STORE_CODE
+   STORE has Primary Key STORE_CODE and Foreign Keys EMP_CODE and REGION_CODE
+   REGION has Primary Key REGION_CODE and no Forien Key
+
+2) Yes they do have entity integrity because there are no null entries in the Primary Keys of any table
+
+3) Yes they do have referential integrity because there are no null entries in the Foreign Keys of any of the table that have Foreign Keys
+
+4) A region can have many stores but a store can only have one region this is one to many.
+
+5) See workbench ERD.
+
+6) See workbench ERD.
+
+7) A store can hire many employees and a employee can work at one store this is one to many. One employee manages the store and the store has one manager this is one to one. 
+
+8) see workbench ERD.
+
+9) see workbench ERD.
